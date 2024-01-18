@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+th {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+}
+/* Style the table data cells */
+td {
+    padding: 8px;
+    border: 1px solid #ccc;
+
+}
+/* Alternate row background colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+}
+/* Highlight row on hover */
+tr:hover {
+    background-color: #ddd;
+}
+td:nth-child(7) {
+  span.positive{
+      color:green;
+}
+}
+
+/* Center the body text */
+body {
+    text-align: center;
+}
