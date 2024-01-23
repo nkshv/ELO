@@ -1,4 +1,4 @@
-https://nkshv.github.io/ELO/web/
+VISIT: https://nkshv.github.io/ELO/web/
 
 # Overview
 
@@ -11,6 +11,7 @@ current skills anymore. Conversely, because it only takes into account fights th
 are underrated giving their lack of experience inside the UFC octagon.
 
 # Intricacies
-All the data was obtained via web scraping from UFC's website: http://ufcstats.com/statistics/events/
+All the data was obtained via web scraping from [UFC's website](http://ufcstats.com/statistics/events/).
 The starting value used in this project is 100 and the K-factor (factor of change) is equal to 32.
-Although convoluted to read and make changes, the single python source file makes it simple for use in such a simple project. Upon execution, all functionalities become accessible. *ufc_ranking_elo.py* does all the data gathering, processing, web page creation and persistence of information as a csv file.
+Although convoluted to read and make changes, the single python source file makes it simple for use in such a simple project. Upon execution, all functionalities become accessible. 
+*ufc_ranking_elo.py* does all the data gathering, processing, web page creation and persistence of information as a csv file.
