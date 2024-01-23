@@ -1,4 +1,4 @@
-https://nkshv.github.io/
+https://nkshv.github.io/ELO/web/
 
 # Overview
 
@@ -10,8 +10,7 @@ that MMA is a sport that generally favors youth. A lot of fighters benefit by st
 current skills anymore. Conversely, because it only takes into account fights that took place in the UFC, some elite fighters coming from another promotions
 are underrated giving their lack of experience inside the UFC octagon.
 
-# How it works
-
-The program was made using Python, and the data was web scrapped from the ufcstats website using BeautifulSoup. It generates a simple html file containg
-a table with every fighter that has ever fought in the UFC and their ratings. The website is updated weekly, on Sundays.
-The starting value is 100 and K-factor (factor of change) is equal to 32.
+# Intricacies
+All the data was obtained via web scraping from UFC's website: http://ufcstats.com/statistics/events/
+The starting value used in this project is 100 and the K-factor (factor of change) is equal to 32.
+Although convoluted to read and make changes, the single python source file makes it simple for use in such a simple project. Upon execution, all functionalities become accessible. *ufc_ranking_elo.py* does all the data gathering, processing, web page creation and persistence of information as a csv file.
