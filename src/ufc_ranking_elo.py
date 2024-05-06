@@ -480,7 +480,7 @@ def organize_files():
         os.remove(file_name2)
         current_path = os.getcwd()
         web_path = current_path.replace("src", "")
-        web_path += "web"
+        web_path += "Documents"
 
         if not os.path.exists(web_path):
             os.makedirs(web_path)
