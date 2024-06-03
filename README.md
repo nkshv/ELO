@@ -1,5 +1,4 @@
-https://nkshv.github.io/ELO/web/
-
+nkshv.github.io/ELO/
 # Overview
 
 In [this project](https://nkshv.github.io/ELO/web/), the Elo rating algorithm is employed to determine the relative skill levels between fighters and rank
